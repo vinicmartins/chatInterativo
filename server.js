@@ -14,6 +14,7 @@ app.use('/', (req, res) => {
     res.render('index.html')
 });
 
+
 let messages = [];
 
 io.on('connection', socket => {
